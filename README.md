@@ -8,15 +8,24 @@ An experimental mod and Windows launcher for **eight teams**, with **1–6 worms
 
 ## Download and play
 
-**[Download the v33 launcher ZIP](https://github.com/gylala999/Worms4-8Teams-6Worms/raw/refs/heads/main/W4-EightStressTest-v33.zip)** · [Report a bug](https://github.com/gylala999/Worms4-8Teams-6Worms/issues)
+**[Download the complete v33 ZIP](https://github.com/gylala999/Worms4-8Teams-6Worms/releases/download/v33/W4-EightStressTest-v33.zip)** · **[Download the v33 launcher EXE](https://github.com/gylala999/Worms4-8Teams-6Worms/releases/download/v33/W4-EightStressTest-v33.exe)** · [Release notes](https://github.com/gylala999/Worms4-8Teams-6Worms/releases/tag/v33) · [Report a bug](https://github.com/gylala999/Worms4-8Teams-6Worms/issues)
 
-1. Use your own **Worms 4 Mayhem, build 3013** installation. The launcher verifies the executable and five data files by SHA256. Other builds, edited data and Worms Ultimate Mayhem are not supported by this release.
+Use the **complete ZIP for your first installation**. The separate EXE still needs the matching five payload files in `CodexTeamTest` from that ZIP.
+
+1. Use your own **Worms 4 Mayhem, build 3013** installation, tested with executable file/product version **1.0.0.1**. The launcher verifies the executable and five data files by SHA256. Other builds, edited data and Worms Ultimate Mayhem are not supported by this release.
 2. Extract the ZIP into your game folder. Keep `W4-EightStressTest-v33.exe` and its `CodexTeamTest` folder beside `WORMS 4 MAYHEM.EXE`.
-3. Open the launcher and choose Human/CPU and 1–6 worms for each of the eight teams.
-4. In the game, select **Local Multiplayer → Deathmatch**, choose **TWO menu teams**, then use **Standard rules and an empty Wormpot** for the first test.
-5. Keep the launcher open until the game closes and it verifies that the original files are restored.
+3. Open **W4-EightStressTest-v33.exe**. Choose **Human or CPU** and **1–6 worms** for each of Teams 1–8.
+4. Click **Start configured match** in the launcher to open the game.
+5. Go to **Local Multiplayer → Deathmatch** and choose a map and rules/game scheme. For your first test, use **Standard rules and an empty Wormpot**; you can try other settings afterward.
+6. Add **Team 1 and Team 2 in the normal game menu**, so there are **TWO menu teams** selected. The launcher supplies the full eight-team setup when the match starts.
+7. Click the game's **grenade/start button**. The match should load with your **eight configured teams** and their selected worm counts.
+8. Keep the launcher open while playing. When the game closes, wait until it verifies that the original files are restored.
+
+The eight-team setup appears in the match; you do not need to add eight teams in the original menu. Different maps, rules and Wormpot bonuses have been tried, but some combinations still need testing.
 
 CPU difficulty is currently fixed at **Skill 2**. Initial health is **100 per worm**. Appearance comes from the first selected menu team; the launcher does not yet provide separate name or appearance editors. This project has been tested in local matches; online eight-player networking has not been established.
+
+Tested original game executable SHA256: `A5C51FDCA84AD42FD11A15194AE812F1C09E075C42731C36391D0E8756A53E0C`.
 
 The ZIP contains the mod launcher and modified Lua/XML payloads. You supply the game. The launcher patches its child game process in memory; the original game executable is not changed on disk. It creates verified local backups and temporarily replaces the five data files, then restores them when the game exits. If restoration fails, close the game and use **Restore original files** before continuing.
 
