@@ -1,0 +1,3443 @@
+<?xml version='1.0' ?>
+<xomArchive>
+  <xomObjects>
+    <XDataBank id='id-0'>
+      <Section>0</Section>
+      <IntResources href='BaseMenuItem.RefCount'/>
+      <IntResources href='FE.LoadSaveEnabled'/>
+      <IntResources href='GS.RankingGame'/>
+      <IntResources href='Game.HostIsLocal'/>
+      <IntResources href='Game.Scope'/>
+      <IntResources href='Game.Victories'/>
+      <UintResources href='GS.GraphicalSeed'/>
+      <UintResources href='GS.LogicalSeed'/>
+      <UintResources href='Game.MaxPlayers'/>
+      <UintResources href='Game.TimeStamp'/>
+      <UintResources href='Particle.Rain.Prob'/>
+      <UintResources href='Particle.Snow.Prob'/>
+      <UintResources href='TwkEdVer.PERSIST'/>
+      <UintResources href='WXD.Level.Indestructable'/>
+      <UintResources href='WXD.Level.Seed'/>
+      <UintResources href='WXFE.EnableTeamPageNext'/>
+      <UintResources href='WXFE.EnableTeamPagePrev'/>
+      <UintResources href='WXFE.NumTeamsInMatch'/>
+      <UintResources href='WXFE.TeamSelectedAlliedGroup'/>
+      <UintResources href='WXNET.Value.MaxPlayers'/>
+      <StringResources href='FE.WinString'/>
+      <StringResources href='GS.CurrentRoomName'/>
+      <StringResources href='GS.Login.Command'/>
+      <StringResources href='GS.Login.Email'/>
+      <StringResources href='GS.Login.Password'/>
+      <StringResources href='GS.Login.Room'/>
+      <StringResources href='GS.MOTD'/>
+      <StringResources href='GS.RoomName'/>
+      <StringResources href='Game.League'/>
+      <StringResources href='Game.hostname'/>
+      <StringResources href='Game.winner'/>
+      <StringResources href='LevelDetailsName'/>
+      <StringResources href='Save.Language'/>
+      <StringResources href='WXD.Level.Current'/>
+      <StringResources href='WXD.Level.Script'/>
+      <StringResources href='WXD.Level.Theme'/>
+      <StringResources href='WXD.Level.TimeOfDay'/>
+      <StringResources href='WXD.MissionRecord'/>
+      <StringResources href='WXD.MissionTitle'/>
+      <StringResources href='WXD.StatResultFailed'/>
+      <StringResources href='WXFE.Award.Coins'/>
+      <StringResources href='WXFE.EasterEgg.Coins'/>
+      <StringResources href='WXFE.EasterEgg.Name'/>
+      <StringResources href='WXFE.Mission.Coins'/>
+      <StringResources href='WXFE.MissionTeamName'/>
+      <StringResources href='WXFE.MissionTitle'/>
+      <StringResources href='WXNET.Value.Password'/>
+      <StringResources href='WXNET.Value.Scheme'/>
+      <StringResources href='WXNETP.MessageOwnerText'/>
+      <StringResources href='WXNETP.MessagePromptText'/>
+      <StringResources href='WXNETP.MessageTitleText'/>
+      <StringResources href='WXNETP.StartOwnerText'/>
+      <StringResources href='WXNETP.StartPromptText'/>
+      <StringResources href='WXNETP.StartTitleText'/>
+      <ContainerResources href='FE.UserErrors'/>
+      <ContainerResources href='TeamPersist.Data00'/>
+      <ContainerResources href='TeamPersist.Data01'/>
+      <ContainerResources href='TeamPersist.Data02'/>
+      <ContainerResources href='TeamPersist.Data03'/>
+      <ContainerResources href='TeamPersist.Data04'/>
+      <ContainerResources href='TeamPersist.Data05'/>
+      <ContainerResources href='TeamPersist.Data07'/>
+      <ContainerResources href='TeamPersist.Data06'/>
+      <ContainerResources href='WXFE.List.AwardNames'/>
+      <ContainerResources href='WXFE.List.AwardSummaries'/>
+      <ContainerResources href='WXFE.MatchStatsList.Team1'/>
+      <ContainerResources href='WXFE.MatchStatsList.Team2'/>
+      <ContainerResources href='WXFE.MatchStatsList.Team3'/>
+      <ContainerResources href='WXFE.MatchStatsList.Team4'/>
+      <ContainerResources href='WXFE.WinRoundList'/>
+      <ContainerResources href='WXFEP.SelectLandscapeList'/>
+      <ContainerResources href='WXNETP.MessageBoxList'/>
+      <ContainerResources href='WXNETP.MessageOwnerList'/>
+      <ContainerResources href='WXNETP.StartMenuList'/>
+      <ContainerResources href='WXNETP.StartOwnerList'/>
+    </XDataBank>
+    <XIntResourceDetails id='BaseMenuItem.RefCount'>
+      <Value>0</Value>
+      <Name>BaseMenuItem.RefCount</Name>
+      <Flags>64</Flags>
+    </XIntResourceDetails>
+    <XIntResourceDetails id='FE.LoadSaveEnabled'>
+      <Value>1</Value>
+      <Name>FE.LoadSaveEnabled</Name>
+      <Flags>64</Flags>
+    </XIntResourceDetails>
+    <XIntResourceDetails id='GS.RankingGame'>
+      <Value>0</Value>
+      <Name>GS.RankingGame</Name>
+      <Flags>64</Flags>
+    </XIntResourceDetails>
+    <XIntResourceDetails id='Game.HostIsLocal'>
+      <Value>0</Value>
+      <Name>Game.HostIsLocal</Name>
+      <Flags>64</Flags>
+    </XIntResourceDetails>
+    <XIntResourceDetails id='Game.Scope'>
+      <Value>0</Value>
+      <Name>Game.Scope</Name>
+      <Flags>64</Flags>
+    </XIntResourceDetails>
+    <XIntResourceDetails id='Game.Victories'>
+      <Value>0</Value>
+      <Name>Game.Victories</Name>
+      <Flags>64</Flags>
+    </XIntResourceDetails>
+    <XUintResourceDetails id='GS.GraphicalSeed'>
+      <Value>0</Value>
+      <Name>GS.GraphicalSeed</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='GS.LogicalSeed'>
+      <Value>0</Value>
+      <Name>GS.LogicalSeed</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='Game.MaxPlayers'>
+      <Value>4</Value>
+      <Name>Game.MaxPlayers</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='Game.TimeStamp'>
+      <Value>0</Value>
+      <Name>Game.TimeStamp</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='Particle.Rain.Prob'>
+      <Value>0</Value>
+      <Name>Particle.Rain.Prob</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='Particle.Snow.Prob'>
+      <Value>0</Value>
+      <Name>Particle.Snow.Prob</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='TwkEdVer.PERSIST'>
+      <Value>180</Value>
+      <Name>TwkEdVer.PERSIST</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='WXD.Level.Indestructable'>
+      <Value>0</Value>
+      <Name>WXD.Level.Indestructable</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='WXD.Level.Seed'>
+      <Value>0</Value>
+      <Name>WXD.Level.Seed</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='WXFE.EnableTeamPageNext'>
+      <Value>0</Value>
+      <Name>WXFE.EnableTeamPageNext</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='WXFE.EnableTeamPagePrev'>
+      <Value>0</Value>
+      <Name>WXFE.EnableTeamPagePrev</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='WXFE.NumTeamsInMatch'>
+      <Value>2</Value>
+      <Name>WXFE.NumTeamsInMatch</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='WXFE.TeamSelectedAlliedGroup'>
+      <Value>0</Value>
+      <Name>WXFE.TeamSelectedAlliedGroup</Name>
+      <Flags>64</Flags>
+    </XUintResourceDetails>
+    <XUintResourceDetails id='WXNET.Value.MaxPlayers'>
+      <Value>4</Value>
+      <Name>WXNET.Value.MaxPlayers</Name>
+      <Flags>0</Flags>
+    </XUintResourceDetails>
+    <XStringResourceDetails id='FE.WinString'>
+      <Value>No games have been played yet.</Value>
+      <Name>FE.WinString</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='GS.CurrentRoomName'>
+      <Value></Value>
+      <Name>GS.CurrentRoomName</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='GS.Login.Command'>
+      <Value></Value>
+      <Name>GS.Login.Command</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='GS.Login.Email'>
+      <Value></Value>
+      <Name>GS.Login.Email</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='GS.Login.Password'>
+      <Value></Value>
+      <Name>GS.Login.Password</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='GS.Login.Room'>
+      <Value></Value>
+      <Name>GS.Login.Room</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='GS.MOTD'>
+      <Value></Value>
+      <Name>GS.MOTD</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='GS.RoomName'>
+      <Value></Value>
+      <Name>GS.RoomName</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='Game.League'>
+      <Value></Value>
+      <Name>Game.League</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='Game.hostname'>
+      <Value></Value>
+      <Name>Game.hostname</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='Game.winner'>
+      <Value></Value>
+      <Name>Game.winner</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='LevelDetailsName'>
+      <Value></Value>
+      <Name>LevelDetailsName</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='Save.Language'>
+      <Value>English</Value>
+      <Name>Save.Language</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXD.Level.Current'>
+      <Value></Value>
+      <Name>WXD.Level.Current</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXD.Level.Script'>
+      <Value></Value>
+      <Name>WXD.Level.Script</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXD.Level.Theme'>
+      <Value></Value>
+      <Name>WXD.Level.Theme</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXD.Level.TimeOfDay'>
+      <Value></Value>
+      <Name>WXD.Level.TimeOfDay</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXD.MissionRecord'>
+      <Value></Value>
+      <Name>WXD.MissionRecord</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXD.MissionTitle'>
+      <Value></Value>
+      <Name>WXD.MissionTitle</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXD.StatResultFailed'>
+      <Value></Value>
+      <Name>WXD.StatResultFailed</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXFE.Award.Coins'>
+      <Value></Value>
+      <Name>WXFE.Award.Coins</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXFE.EasterEgg.Coins'>
+      <Value></Value>
+      <Name>WXFE.EasterEgg.Coins</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXFE.EasterEgg.Name'>
+      <Value></Value>
+      <Name>WXFE.EasterEgg.Name</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXFE.Mission.Coins'>
+      <Value></Value>
+      <Name>WXFE.Mission.Coins</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXFE.MissionTeamName'>
+      <Value></Value>
+      <Name>WXFE.MissionTeamName</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXFE.MissionTitle'>
+      <Value></Value>
+      <Name>WXFE.MissionTitle</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNET.Value.Password'>
+      <Value></Value>
+      <Name>WXNET.Value.Password</Name>
+      <Flags>0</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNET.Value.Scheme'>
+      <Value>FE.Scheme.Standard</Value>
+      <Name>WXNET.Value.Scheme</Name>
+      <Flags>0</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNETP.MessageOwnerText'>
+      <Value></Value>
+      <Name>WXNETP.MessageOwnerText</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNETP.MessagePromptText'>
+      <Value></Value>
+      <Name>WXNETP.MessagePromptText</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNETP.MessageTitleText'>
+      <Value></Value>
+      <Name>WXNETP.MessageTitleText</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNETP.StartOwnerText'>
+      <Value></Value>
+      <Name>WXNETP.StartOwnerText</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNETP.StartPromptText'>
+      <Value></Value>
+      <Name>WXNETP.StartPromptText</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XStringResourceDetails id='WXNETP.StartTitleText'>
+      <Value></Value>
+      <Name>WXNETP.StartTitleText</Name>
+      <Flags>64</Flags>
+    </XStringResourceDetails>
+    <XContainerResourceDetails id='FE.UserErrors'>
+      <Value href='FE.UserErrors-0'/>
+      <Name>FE.UserErrors</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <StringQueue id='FE.UserErrors-0'>
+      <Size>20</Size>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Queue></Queue>
+      <Front>0</Front>
+      <Back>0</Back>
+      <Count>0</Count>
+    </StringQueue>
+    <XContainerResourceDetails id='TeamPersist.Data00'>
+      <Value href='TeamPersist.Data00-0'/>
+      <Name>TeamPersist.Data00</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data00-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+    <XContainerResourceDetails id='TeamPersist.Data01'>
+      <Value href='TeamPersist.Data01-0'/>
+      <Name>TeamPersist.Data01</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data01-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+    <XContainerResourceDetails id='TeamPersist.Data02'>
+      <Value href='TeamPersist.Data02-0'/>
+      <Name>TeamPersist.Data02</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data02-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+    <XContainerResourceDetails id='TeamPersist.Data03'>
+      <Value href='TeamPersist.Data03-0'/>
+      <Name>TeamPersist.Data03</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data03-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+    <XContainerResourceDetails id='TeamPersist.Data04'>
+      <Value href='TeamPersist.Data04-0'/>
+      <Name>TeamPersist.Data04</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data04-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+    <XContainerResourceDetails id='TeamPersist.Data05'>
+      <Value href='TeamPersist.Data05-0'/>
+      <Name>TeamPersist.Data05</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data05-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+    <XContainerResourceDetails id='WXFE.List.AwardNames'>
+      <Value href='WXFE.List.AwardNames-0'/>
+      <Name>WXFE.List.AwardNames</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFE.List.AwardNames-0'>
+    </WXFE_ListBoxContents>
+    <XContainerResourceDetails id='WXFE.List.AwardSummaries'>
+      <Value href='WXFE.List.AwardSummaries-0'/>
+      <Name>WXFE.List.AwardSummaries</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFE.List.AwardSummaries-0'>
+    </WXFE_ListBoxContents>
+    <XContainerResourceDetails id='WXFE.MatchStatsList.Team1'>
+      <Value href='WXFE.MatchStatsList.Team1-0'/>
+      <Name>WXFE.MatchStatsList.Team1</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFE.MatchStatsList.Team1-0'>
+      <Rows href='WXFE.MatchStatsList.Team1-1'/>
+      <Rows href='WXFE.MatchStatsList.Team1-5'/>
+      <Rows href='WXFE.MatchStatsList.Team1-9'/>
+      <Rows href='WXFE.MatchStatsList.Team1-13'/>
+      <Rows href='WXFE.MatchStatsList.Team1-17'/>
+      <Rows href='WXFE.MatchStatsList.Team1-21'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team1-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team1-2'/>
+      <Columns href='WXFE.MatchStatsList.Team1-3'/>
+      <Columns href='WXFE.MatchStatsList.Team1-4'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team1-2'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-3'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team1-4'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team1-5'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team1-6'/>
+      <Columns href='WXFE.MatchStatsList.Team1-7'/>
+      <Columns href='WXFE.MatchStatsList.Team1-8'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team1-6'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-7'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team1-8'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team1-9'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team1-10'/>
+      <Columns href='WXFE.MatchStatsList.Team1-11'/>
+      <Columns href='WXFE.MatchStatsList.Team1-12'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team1-10'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-11'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team1-12'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team1-13'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team1-14'/>
+      <Columns href='WXFE.MatchStatsList.Team1-15'/>
+      <Columns href='WXFE.MatchStatsList.Team1-16'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team1-14'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-15'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team1-16'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team1-17'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team1-18'/>
+      <Columns href='WXFE.MatchStatsList.Team1-19'/>
+      <Columns href='WXFE.MatchStatsList.Team1-20'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team1-18'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-19'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team1-20'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team1-21'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team1-22'/>
+      <Columns href='WXFE.MatchStatsList.Team1-23'/>
+      <Columns href='WXFE.MatchStatsList.Team1-24'/>
+      <Columns href='WXFE.MatchStatsList.Team1-25'/>
+      <Columns href='WXFE.MatchStatsList.Team1-26'/>
+    </WXFE_ListBoxRows>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-22'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team1-23'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-24'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>false</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team1-25'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team1-26'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <XContainerResourceDetails id='WXFE.MatchStatsList.Team2'>
+      <Value href='WXFE.MatchStatsList.Team2-0'/>
+      <Name>WXFE.MatchStatsList.Team2</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFE.MatchStatsList.Team2-0'>
+      <Rows href='WXFE.MatchStatsList.Team2-1'/>
+      <Rows href='WXFE.MatchStatsList.Team2-5'/>
+      <Rows href='WXFE.MatchStatsList.Team2-9'/>
+      <Rows href='WXFE.MatchStatsList.Team2-13'/>
+      <Rows href='WXFE.MatchStatsList.Team2-17'/>
+      <Rows href='WXFE.MatchStatsList.Team2-21'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team2-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team2-2'/>
+      <Columns href='WXFE.MatchStatsList.Team2-3'/>
+      <Columns href='WXFE.MatchStatsList.Team2-4'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team2-2'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-3'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team2-4'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team2-5'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team2-6'/>
+      <Columns href='WXFE.MatchStatsList.Team2-7'/>
+      <Columns href='WXFE.MatchStatsList.Team2-8'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team2-6'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-7'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team2-8'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team2-9'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team2-10'/>
+      <Columns href='WXFE.MatchStatsList.Team2-11'/>
+      <Columns href='WXFE.MatchStatsList.Team2-12'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team2-10'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-11'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team2-12'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team2-13'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team2-14'/>
+      <Columns href='WXFE.MatchStatsList.Team2-15'/>
+      <Columns href='WXFE.MatchStatsList.Team2-16'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team2-14'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-15'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team2-16'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team2-17'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team2-18'/>
+      <Columns href='WXFE.MatchStatsList.Team2-19'/>
+      <Columns href='WXFE.MatchStatsList.Team2-20'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team2-18'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-19'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team2-20'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team2-21'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team2-22'/>
+      <Columns href='WXFE.MatchStatsList.Team2-23'/>
+      <Columns href='WXFE.MatchStatsList.Team2-24'/>
+      <Columns href='WXFE.MatchStatsList.Team2-25'/>
+      <Columns href='WXFE.MatchStatsList.Team2-26'/>
+    </WXFE_ListBoxRows>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-22'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team2-23'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-24'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>false</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team2-25'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team2-26'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <XContainerResourceDetails id='WXFE.MatchStatsList.Team3'>
+      <Value href='WXFE.MatchStatsList.Team3-0'/>
+      <Name>WXFE.MatchStatsList.Team3</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFE.MatchStatsList.Team3-0'>
+      <Rows href='WXFE.MatchStatsList.Team3-1'/>
+      <Rows href='WXFE.MatchStatsList.Team3-5'/>
+      <Rows href='WXFE.MatchStatsList.Team3-9'/>
+      <Rows href='WXFE.MatchStatsList.Team3-13'/>
+      <Rows href='WXFE.MatchStatsList.Team3-17'/>
+      <Rows href='WXFE.MatchStatsList.Team3-21'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team3-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team3-2'/>
+      <Columns href='WXFE.MatchStatsList.Team3-3'/>
+      <Columns href='WXFE.MatchStatsList.Team3-4'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team3-2'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-3'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team3-4'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team3-5'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team3-6'/>
+      <Columns href='WXFE.MatchStatsList.Team3-7'/>
+      <Columns href='WXFE.MatchStatsList.Team3-8'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team3-6'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-7'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team3-8'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team3-9'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team3-10'/>
+      <Columns href='WXFE.MatchStatsList.Team3-11'/>
+      <Columns href='WXFE.MatchStatsList.Team3-12'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team3-10'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-11'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team3-12'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team3-13'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team3-14'/>
+      <Columns href='WXFE.MatchStatsList.Team3-15'/>
+      <Columns href='WXFE.MatchStatsList.Team3-16'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team3-14'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-15'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team3-16'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team3-17'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team3-18'/>
+      <Columns href='WXFE.MatchStatsList.Team3-19'/>
+      <Columns href='WXFE.MatchStatsList.Team3-20'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team3-18'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-19'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team3-20'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team3-21'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team3-22'/>
+      <Columns href='WXFE.MatchStatsList.Team3-23'/>
+      <Columns href='WXFE.MatchStatsList.Team3-24'/>
+      <Columns href='WXFE.MatchStatsList.Team3-25'/>
+      <Columns href='WXFE.MatchStatsList.Team3-26'/>
+    </WXFE_ListBoxRows>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-22'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team3-23'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-24'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>false</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team3-25'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team3-26'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <XContainerResourceDetails id='WXFE.MatchStatsList.Team4'>
+      <Value href='WXFE.MatchStatsList.Team4-0'/>
+      <Name>WXFE.MatchStatsList.Team4</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFE.MatchStatsList.Team4-0'>
+      <Rows href='WXFE.MatchStatsList.Team4-1'/>
+      <Rows href='WXFE.MatchStatsList.Team4-5'/>
+      <Rows href='WXFE.MatchStatsList.Team4-9'/>
+      <Rows href='WXFE.MatchStatsList.Team4-13'/>
+      <Rows href='WXFE.MatchStatsList.Team4-17'/>
+      <Rows href='WXFE.MatchStatsList.Team4-21'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team4-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team4-2'/>
+      <Columns href='WXFE.MatchStatsList.Team4-3'/>
+      <Columns href='WXFE.MatchStatsList.Team4-4'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team4-2'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-3'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team4-4'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team4-5'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team4-6'/>
+      <Columns href='WXFE.MatchStatsList.Team4-7'/>
+      <Columns href='WXFE.MatchStatsList.Team4-8'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team4-6'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-7'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team4-8'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team4-9'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team4-10'/>
+      <Columns href='WXFE.MatchStatsList.Team4-11'/>
+      <Columns href='WXFE.MatchStatsList.Team4-12'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team4-10'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-11'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team4-12'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team4-13'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team4-14'/>
+      <Columns href='WXFE.MatchStatsList.Team4-15'/>
+      <Columns href='WXFE.MatchStatsList.Team4-16'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team4-14'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-15'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team4-16'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team4-17'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team4-18'/>
+      <Columns href='WXFE.MatchStatsList.Team4-19'/>
+      <Columns href='WXFE.MatchStatsList.Team4-20'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team4-18'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-19'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team4-20'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>24</FontSize>
+      <Width>48</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>17</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>17</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.MatchStatsList.Team4-21'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>24</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.MatchStatsList.Team4-22'/>
+      <Columns href='WXFE.MatchStatsList.Team4-23'/>
+      <Columns href='WXFE.MatchStatsList.Team4-24'/>
+      <Columns href='WXFE.MatchStatsList.Team4-25'/>
+      <Columns href='WXFE.MatchStatsList.Team4-26'/>
+    </WXFE_ListBoxRows>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-22'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXFE.MatchStatsList.Team4-23'>
+      <CallBack>false</CallBack>
+      <Text></Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-24'>
+      <GapWidth>5</GapWidth>
+      <ExpandToFitAvailableSpace>false</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.MatchStatsList.Team4-25'>
+      <Text>0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>22</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>11</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>11</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>11</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.MatchStatsList.Team4-26'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <XContainerResourceDetails id='WXFE.WinRoundList'>
+      <Value href='WXFE.WinRoundList-0'/>
+      <Name>WXFE.WinRoundList</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFE.WinRoundList-0'>
+      <Rows href='WXFE.WinRoundList-1'/>
+      <Rows href='WXFE.WinRoundList-5'/>
+      <Rows href='WXFE.WinRoundList-6'/>
+      <Rows href='WXFE.WinRoundList-10'/>
+      <Rows href='WXFE.WinRoundList-14'/>
+      <Rows href='WXFE.WinRoundList-18'/>
+      <Rows href='WXFE.WinRoundList-22'/>
+      <Rows href='WXFE.WinRoundList-23'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>30</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.WinRoundList-2'/>
+      <Columns href='WXFE.WinRoundList-3'/>
+      <Columns href='WXFE.WinRoundList-4'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringColumns id='WXFE.WinRoundList-2'>
+      <Text>Stat.Accolade.Pve.0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>62</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.WinRoundList-3'>
+      <GapWidth>3</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.WinRoundList-4'>
+      <Text>Light1</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>35</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-5'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>35</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+    </WXFE_ListBoxRows>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-6'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>30</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.WinRoundList-7'/>
+      <Columns href='WXFE.WinRoundList-8'/>
+      <Columns href='WXFE.WinRoundList-9'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringColumns id='WXFE.WinRoundList-7'>
+      <Text>Stat.Accolade.Pve.0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>62</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.WinRoundList-8'>
+      <GapWidth>3</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.WinRoundList-9'>
+      <Text>Light1</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>35</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-10'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>30</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.WinRoundList-11'/>
+      <Columns href='WXFE.WinRoundList-12'/>
+      <Columns href='WXFE.WinRoundList-13'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringColumns id='WXFE.WinRoundList-11'>
+      <Text>Stat.Accolade.Pve.0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>62</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.WinRoundList-12'>
+      <GapWidth>3</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.WinRoundList-13'>
+      <Text>Light1</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>35</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-14'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>30</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.WinRoundList-15'/>
+      <Columns href='WXFE.WinRoundList-16'/>
+      <Columns href='WXFE.WinRoundList-17'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringColumns id='WXFE.WinRoundList-15'>
+      <Text>Stat.Accolade.Pve.0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>62</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.WinRoundList-16'>
+      <GapWidth>3</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.WinRoundList-17'>
+      <Text>Dark1</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>35</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-18'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>30</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.WinRoundList-19'/>
+      <Columns href='WXFE.WinRoundList-20'/>
+      <Columns href='WXFE.WinRoundList-21'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringColumns id='WXFE.WinRoundList-19'>
+      <Text>Stat.Accolade.Pve.0</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>62</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_GapColumns id='WXFE.WinRoundList-20'>
+      <GapWidth>3</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='200' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='255' g='255' b='255' a='100' />
+    </WXFE_GapColumns>
+    <WXFE_StringColumns id='WXFE.WinRoundList-21'>
+      <Text>Light1</Text>
+      <Font>FE.Font</Font>
+      <FontSize>28</FontSize>
+      <Width>35</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>true</KeepJustification>
+    </WXFE_StringColumns>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-22'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>3</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>60</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+    </WXFE_ListBoxRows>
+    <WXFE_ListBoxRows id='WXFE.WinRoundList-23'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>0</Anim_Highlight>
+      <Anim_Clicked>0</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>40</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXFE.WinRoundList-24'/>
+      <Columns href='WXFE.WinRoundList-25'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXFE.WinRoundList-24'>
+      <CallBack>false</CallBack>
+      <Text>Round Time:</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>55</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>2</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>2</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_StringTableColumns id='WXFE.WinRoundList-25'>
+      <CallBack>false</CallBack>
+      <Text>08:35</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>45</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>true</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>8</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>8</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>2</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <XContainerResourceDetails id='WXFEP.SelectLandscapeList'>
+      <Value href='WXFEP.SelectLandscapeList-0'/>
+      <Name>WXFEP.SelectLandscapeList</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXFEP.SelectLandscapeList-0'>
+    </WXFE_ListBoxContents>
+    <XContainerResourceDetails id='WXNETP.MessageBoxList'>
+      <Value href='WXNETP.MessageBoxList-0'/>
+      <Name>WXNETP.MessageBoxList</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXNETP.MessageBoxList-0'>
+      <Rows href='WXNETP.MessageBoxList-1'/>
+      <Rows href='WXNETP.MessageBoxList-3'/>
+      <Rows href='WXNETP.MessageBoxList-5'/>
+      <Rows href='WXNETP.MessageBoxList-6'/>
+      <Rows href='WXNETP.MessageBoxList-10'/>
+      <Rows href='WXNETP.MessageBoxList-14'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXNETP.MessageBoxList-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Messages_Selected>WXMsg.KillPopUp</Messages_Selected>
+      <Messages_Selected>WXMsg.CreatePopUp$WXNETP.PlayerList</Messages_Selected>
+      <Orientation x='0' y='0' z='-0.01' />
+      <RowHeight>25</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.MessageBoxList-2'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-2'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.PlayerList</Text>
+      <Font>FE.Font</Font>
+      <FontSize>50</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>25</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.MessageBoxList-3'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Messages_Selected>WXMsg.KillPopUp</Messages_Selected>
+      <Messages_Selected>WXMsg.CreatePopUp$WXNETP.FriendsList</Messages_Selected>
+      <Orientation x='0' y='0' z='-0.01' />
+      <RowHeight>25</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.MessageBoxList-4'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-4'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.FriendsList</Text>
+      <Font>FE.Font</Font>
+      <FontSize>50</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>25</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.MessageBoxList-5'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>20</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+    </WXFE_ListBoxRows>
+    <WXFE_ListBoxRows id='WXNETP.MessageBoxList-6'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>22</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.MessageBoxList-7'/>
+      <Columns href='WXNETP.MessageBoxList-8'/>
+      <Columns href='WXNETP.MessageBoxList-9'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-7'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.AppearStatus</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXNETP.MessageBoxList-8'>
+      <GapWidth>0</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-9'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.Online</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.MessageBoxList-10'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>22</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.MessageBoxList-11'/>
+      <Columns href='WXNETP.MessageBoxList-12'/>
+      <Columns href='WXNETP.MessageBoxList-13'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-11'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.VoiceMask</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXNETP.MessageBoxList-12'>
+      <GapWidth>0</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-13'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.Anonymous</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.MessageBoxList-14'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>22</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.MessageBoxList-15'/>
+      <Columns href='WXNETP.MessageBoxList-16'/>
+      <Columns href='WXNETP.MessageBoxList-17'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-15'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.VoiceThroughSpeakers</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXNETP.MessageBoxList-16'>
+      <GapWidth>0</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXNETP.MessageBoxList-17'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.On</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <XContainerResourceDetails id='WXNETP.MessageOwnerList'>
+      <Value href='WXNETP.MessageOwnerList-0'/>
+      <Name>WXNETP.MessageOwnerList</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXNETP.MessageOwnerList-0'>
+      <Rows href='WXNETP.MessageOwnerList-1'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXNETP.MessageOwnerList-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>40</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.MessageOwnerList-2'/>
+      <Columns href='WXNETP.MessageOwnerList-3'/>
+      <Columns href='WXNETP.MessageOwnerList-4'/>
+      <Columns href='WXNETP.MessageOwnerList-5'/>
+      <Columns href='WXNETP.MessageOwnerList-6'/>
+    </WXFE_ListBoxRows>
+    <WXFE_GapColumns id='WXNETP.MessageOwnerList-2'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_IconColumns id='WXNETP.MessageOwnerList-3'>
+      <IconName>WXFE.ListSubDivide:0</IconName>
+      <ScaleX>20</ScaleX>
+      <ScaleY>5</ScaleY>
+      <AutoScale>false</AutoScale>
+      <WidthAdjust>0</WidthAdjust>
+      <InvisibleToBorder>false</InvisibleToBorder>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_IconColumns>
+    <WXFE_StringTableColumns id='WXNETP.MessageOwnerList-4'>
+      <CallBack>true</CallBack>
+      <Text>WXNETP.MessageOwnerText</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>80</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>4</Justification>
+      <ColourFRONT_Normal>13</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>0</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>0</ColourBACK_Disabled>
+      <TextAnim>4</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_IconColumns id='WXNETP.MessageOwnerList-5'>
+      <IconName>WXFE.ListSubDivide:1</IconName>
+      <ScaleX>20</ScaleX>
+      <ScaleY>5</ScaleY>
+      <AutoScale>false</AutoScale>
+      <WidthAdjust>0</WidthAdjust>
+      <InvisibleToBorder>false</InvisibleToBorder>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_IconColumns>
+    <WXFE_GapColumns id='WXNETP.MessageOwnerList-6'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <XContainerResourceDetails id='WXNETP.StartMenuList'>
+      <Value href='WXNETP.StartMenuList-0'/>
+      <Name>WXNETP.StartMenuList</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXNETP.StartMenuList-0'>
+      <Rows href='WXNETP.StartMenuList-1'/>
+      <Rows href='WXNETP.StartMenuList-3'/>
+      <Rows href='WXNETP.StartMenuList-5'/>
+      <Rows href='WXNETP.StartMenuList-6'/>
+      <Rows href='WXNETP.StartMenuList-10'/>
+      <Rows href='WXNETP.StartMenuList-14'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXNETP.StartMenuList-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Messages_Selected>WXMsg.KillPopUp</Messages_Selected>
+      <Messages_Selected>WXMsg.CreatePopUp$WXNETP.PlayerList</Messages_Selected>
+      <Orientation x='0' y='0' z='-0.01' />
+      <RowHeight>25</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.StartMenuList-2'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-2'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.PlayerList</Text>
+      <Font>FE.Font</Font>
+      <FontSize>50</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>25</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.StartMenuList-3'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Messages_Selected>WXMsg.KillPopUp</Messages_Selected>
+      <Messages_Selected>WXMsg.CreatePopUp$WXNETP.FriendsList</Messages_Selected>
+      <Orientation x='0' y='0' z='-0.01' />
+      <RowHeight>25</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.StartMenuList-4'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-4'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.FriendsList</Text>
+      <Font>FE.Font</Font>
+      <FontSize>50</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>3</Justification>
+      <ColourFRONT_Normal>25</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.StartMenuList-5'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>20</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+    </WXFE_ListBoxRows>
+    <WXFE_ListBoxRows id='WXNETP.StartMenuList-6'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>22</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.StartMenuList-7'/>
+      <Columns href='WXNETP.StartMenuList-8'/>
+      <Columns href='WXNETP.StartMenuList-9'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-7'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.AppearStatus</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXNETP.StartMenuList-8'>
+      <GapWidth>0</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-9'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.Online</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.StartMenuList-10'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>22</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.StartMenuList-11'/>
+      <Columns href='WXNETP.StartMenuList-12'/>
+      <Columns href='WXNETP.StartMenuList-13'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-11'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.VoiceMask</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXNETP.StartMenuList-12'>
+      <GapWidth>0</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-13'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.Anonymous</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_ListBoxRows id='WXNETP.StartMenuList-14'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>11</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>true</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>22</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>false</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.StartMenuList-15'/>
+      <Columns href='WXNETP.StartMenuList-16'/>
+      <Columns href='WXNETP.StartMenuList-17'/>
+    </WXFE_ListBoxRows>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-15'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.VoiceThroughSpeakers</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_GapColumns id='WXNETP.StartMenuList-16'>
+      <GapWidth>0</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_StringTableColumns id='WXNETP.StartMenuList-17'>
+      <CallBack>false</CallBack>
+      <Text>FETXT.On</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>100</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>5</Justification>
+      <ColourFRONT_Normal>26</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>2</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>19</ColourFRONT_Disabled>
+      <ColourBACK_Normal>3</ColourBACK_Normal>
+      <ColourBACK_Highlight>2</ColourBACK_Highlight>
+      <ColourBACK_Disabled>2</ColourBACK_Disabled>
+      <TextAnim>0</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <XContainerResourceDetails id='WXNETP.StartOwnerList'>
+      <Value href='WXNETP.StartOwnerList-0'/>
+      <Name>WXNETP.StartOwnerList</Name>
+      <Flags>80</Flags>
+    </XContainerResourceDetails>
+    <WXFE_ListBoxContents id='WXNETP.StartOwnerList-0'>
+      <Rows href='WXNETP.StartOwnerList-1'/>
+    </WXFE_ListBoxContents>
+    <WXFE_ListBoxRows id='WXNETP.StartOwnerList-1'>
+      <Border_Normal>0</Border_Normal>
+      <Border_Highlight>0</Border_Highlight>
+      <Border_Disabled>0</Border_Disabled>
+      <BorderFitContents>false</BorderFitContents>
+      <Anim_Highlight>26</Anim_Highlight>
+      <Anim_Clicked>1</Anim_Clicked>
+      <Orientation x='0' y='0' z='0' />
+      <RowHeight>40</RowHeight>
+      <BorderHeightAdjust>0</BorderHeightAdjust>
+      <BorderWidthAdjust>0.15</BorderWidthAdjust>
+      <GapBetweenItems>2</GapBetweenItems>
+      <Decorative>true</Decorative>
+      <Sort></Sort>
+      <Index></Index>
+      <Enable></Enable>
+      <Columns href='WXNETP.StartOwnerList-2'/>
+      <Columns href='WXNETP.StartOwnerList-3'/>
+      <Columns href='WXNETP.StartOwnerList-4'/>
+      <Columns href='WXNETP.StartOwnerList-5'/>
+      <Columns href='WXNETP.StartOwnerList-6'/>
+    </WXFE_ListBoxRows>
+    <WXFE_GapColumns id='WXNETP.StartOwnerList-2'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <WXFE_IconColumns id='WXNETP.StartOwnerList-3'>
+      <IconName>WXFE.ListSubDivide:0</IconName>
+      <ScaleX>20</ScaleX>
+      <ScaleY>5</ScaleY>
+      <AutoScale>false</AutoScale>
+      <WidthAdjust>0</WidthAdjust>
+      <InvisibleToBorder>false</InvisibleToBorder>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_IconColumns>
+    <WXFE_StringTableColumns id='WXNETP.StartOwnerList-4'>
+      <CallBack>true</CallBack>
+      <Text>WXNETP.StartOwnerText</Text>
+      <Font>FE.Font</Font>
+      <FontSize>20</FontSize>
+      <Width>80</Width>
+      <WidthIsInPercent>true</WidthIsInPercent>
+      <ScaleTextToFit>true</ScaleTextToFit>
+      <KeepWhiteSpace>false</KeepWhiteSpace>
+      <Justification>4</Justification>
+      <ColourFRONT_Normal>13</ColourFRONT_Normal>
+      <ColourFRONT_Highlight>0</ColourFRONT_Highlight>
+      <ColourFRONT_Disabled>0</ColourFRONT_Disabled>
+      <ColourBACK_Normal>2</ColourBACK_Normal>
+      <ColourBACK_Highlight>0</ColourBACK_Highlight>
+      <ColourBACK_Disabled>0</ColourBACK_Disabled>
+      <TextAnim>4</TextAnim>
+      <TextAnimSeed>0</TextAnimSeed>
+      <KeepJustification>false</KeepJustification>
+    </WXFE_StringTableColumns>
+    <WXFE_IconColumns id='WXNETP.StartOwnerList-5'>
+      <IconName>WXFE.ListSubDivide:1</IconName>
+      <ScaleX>20</ScaleX>
+      <ScaleY>5</ScaleY>
+      <AutoScale>false</AutoScale>
+      <WidthAdjust>0</WidthAdjust>
+      <InvisibleToBorder>false</InvisibleToBorder>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_IconColumns>
+    <WXFE_GapColumns id='WXNETP.StartOwnerList-6'>
+      <GapWidth>2</GapWidth>
+      <ExpandToFitAvailableSpace>true</ExpandToFitAvailableSpace>
+      <GapType>0</GapType>
+      <Colour_Normal r='255' g='255' b='255' a='255' />
+      <Colour_Highlight r='255' g='255' b='255' a='255' />
+      <Colour_Disabled r='128' g='128' b='128' a='255' />
+    </WXFE_GapColumns>
+    <XContainerResourceDetails id='TeamPersist.Data06'>
+      <Value href='TeamPersist.Data06-0'/>
+      <Name>TeamPersist.Data06</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data06-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+    <XContainerResourceDetails id='TeamPersist.Data07'>
+      <Value href='TeamPersist.Data07-0'/>
+      <Name>TeamPersist.Data07</Name>
+      <Flags>81</Flags>
+    </XContainerResourceDetails>
+    <TeamPersistDataContainer id='TeamPersist.Data07-0'>
+      <RoundsWon>0</RoundsWon>
+    </TeamPersistDataContainer>
+  </xomObjects>
+</xomArchive>

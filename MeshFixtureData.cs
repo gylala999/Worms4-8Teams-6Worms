@@ -1,0 +1,77 @@
+using System;
+internal static class MeshFixtureData {
+static byte[] H(string s){var b=new byte[s.Length/2];for(int i=0;i<b.Length;i++)b[i]=Convert.ToByte(s.Substring(i*2,2),16);return b;}
+internal static byte[] Build(uint original,uint at,Func<uint,uint> bind,byte[] disk){byte[] b;switch(original){
+case 0x427822u:b=H("a1904485002b059c448500556685c0668b6c2408740ab805400080e9e0000000663b2d904485000f84d1000000a18c4485005333db3bc35657741a8d48fc3919740e8b106a038bc8ff9284000000eb05e8fa99fdff8b0d98448500e8ef99fdff663beb750e891d8c448500891d98448500eb4c0fb7fd8bcf69c9d000000083c10433d2e87a98fdff3bc3741e68532c4200578d700468d0000000568938e879c2fdff89358c448500eb06891d8c4485008d0c3f33d2e84898fdffa39844850033f6663beb66892d9044850066892d9c448500762733ffa18c44850003c78b085650ff5134a198448500668934034681c7d00000004343663bf572db5f5e5b33c05dc20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+Put(b,1,bind(0x854490u));
+Put(b,7,bind(0x85449cu));
+Put(b,35,bind(0x854490u));
+Put(b,46,bind(0x85448cu));
+Put(b,81,unchecked(bind(0x401271u)-at-85));
+Put(b,87,bind(0x854498u));
+Put(b,92,unchecked(bind(0x401271u)-at-96));
+Put(b,103,bind(0x85448cu));
+Put(b,109,bind(0x854498u));
+Put(b,132,unchecked(bind(0x401124u)-at-136));
+Put(b,141,bind(0x422c53u));
+Put(b,158,unchecked(bind(0x403b3du)-at-162));
+Put(b,164,bind(0x85448cu));
+Put(b,172,bind(0x85448cu));
+Put(b,182,unchecked(bind(0x401124u)-at-186));
+Put(b,187,bind(0x854498u));
+Put(b,199,bind(0x854490u));
+Put(b,206,bind(0x85449cu));
+Put(b,215,bind(0x85448cu));
+Put(b,229,bind(0x854498u));
+return b;
+case 0x427f86u:b=H("558bec66833d9c448500005675488b0da0c484000fb735904485008d4114f7d91bc923c8baf80c7e00e801c6fdff8bd68bc8e8b2c4fdffba4c067e008bc8e8ecc5fdffba3c467d008bc8e8e0c5fdffb805400080eb6d807d10ff578b7d0875068a471a88451066ff0d9c4485000fb7059c4485008b0d984485000fb704418b750c69c0d000000003058c4485008bce50e84d030000ff75148b06ff75108b085750ff512885c07c1aff75140fb74718ff75108d0485581f8500ff005657e83a7300005f5e5dc21000");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+Put(b,6,bind(0x85449cu));
+Put(b,16,bind(0x84c4a0u));
+Put(b,23,bind(0x854490u));
+Put(b,37,bind(0x7e0cf8u));
+Put(b,42,unchecked(bind(0x4045b5u)-at-46));
+Put(b,51,unchecked(bind(0x40446fu)-at-55));
+Put(b,56,bind(0x7e064cu));
+Put(b,63,unchecked(bind(0x4045b5u)-at-67));
+Put(b,68,bind(0x7d463cu));
+Put(b,75,unchecked(bind(0x4045b5u)-at-79));
+Put(b,105,bind(0x85449cu));
+Put(b,112,bind(0x85449cu));
+Put(b,118,bind(0x854498u));
+Put(b,137,bind(0x85448cu));
+Put(b,145,unchecked(bind(0x428368u)-at-149));
+Put(b,181,bind(0x851f58u));
+Put(b,190,unchecked(bind(0x42f382u)-at-194));
+return b;
+case 0x42804eu:b=H("568b74240c8b0656ff50300fb7c08d0485581f8500ff088b0656ff50380fb70d9c4485008b159844850066ff059c44850056ff74240c6689044ae81173000033c05ec20800");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+Put(b,17,bind(0x851f58u));
+Put(b,32,bind(0x85449cu));
+Put(b,38,bind(0x854498u));
+Put(b,45,bind(0x85449cu));
+Put(b,59,unchecked(bind(0x42f39eu)-at-63));
+return b;
+case 0x428368u:b=H("56578b7c240c85ff8bf174068b0757ff50048b0685c074068b0850ff5108893e8bc75f5ec20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x43144eu:b=H("8b442404668b4c24086689480833c0c20800");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x431460u:b=H("8b442404668b4008c20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x43248cu:b=H("8b4424048b40788b0850ff5140668b00c20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x41b5a9u:b=H("8b4424048a4004c20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x41b5b3u:b=H("8b4424048b4078c20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x431346u:b=H("8b54240433c9668b4a0a56beff3f00008d410133c123c633c16689420a23c65ec20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x431369u:b=H("8b54240433c9668b4a0a56beff3f00008d41ff33c123c633c16689420a23c68bf075098b0252ff90880000008bc65ec20400");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x43139bu:b=H("568bf18b467885c074068b0850ff5108836678005ec3");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x42f382u:b=H("8b4c24048b411c8d500133d081e2ff7f000033d089511c33c0c21000");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+case 0x42f39eu:b=H("8b4c24048b411c8d50ff33d081e2ff7f000033d089511c8b4c24088b01ff501c33c0c20800");for(int i=0;i<b.Length;i++)if(disk[original-0x400000+i]!=b[i])throw new Exception("Mesh fixture disk guard");
+return b;
+default:throw new Exception("Unknown mesh fixture routine");}}
+static void Put(byte[] b,int at,uint n){Array.Copy(BitConverter.GetBytes(n),0,b,at,4);}
+}

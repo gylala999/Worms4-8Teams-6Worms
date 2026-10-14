@@ -1,0 +1,10 @@
+/dist/
+/artifacts/
+/CodexTeamTest/Reports/
+/CodexTeamTest/Backups/
+*.dmp
+*.log
+*.original.lua
+*.original.xml
+WORMS 4 MAYHEM.EXE
+Profile.fixture.cs
